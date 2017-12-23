@@ -18,6 +18,9 @@ git clone https://github.com/movidius/ncsdk.git
 #Raspberry pi 3 how to install Ubuntu 16.04?
 https://wiki.ubuntu.com/ARM/RaspberryPi
 
+#get lantern
+wget https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb
+
 
 
 
