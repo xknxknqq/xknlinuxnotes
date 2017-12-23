@@ -1,3 +1,4 @@
+
 #add user to virtualbox vmshare group
 sudo usermod -a -G vboxsf
 
@@ -25,7 +26,9 @@ sudo dpkg -i lantern-installer-64-bit.deb
 #install guest addtions
 sudo apt-get install virtualbox-guest-additions-iso
 
-
+#vmware screen resolution 
+xrandr -q
+xrandr -s 12
 
 
 
