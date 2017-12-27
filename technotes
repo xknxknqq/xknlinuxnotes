@@ -8,7 +8,7 @@ sudo apt-get update
 sudo apt-get install atom
 
 #git config
-git config --global user.name “Kevin Xie”
+git config --global user.name "Kevin Xie"
 git config --global user.email 1553730177@qq.com
 git config --global credential.helper 'cache --timeout 3600'
 git config --list
