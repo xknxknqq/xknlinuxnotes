@@ -42,8 +42,12 @@ doesn't work
 sudo apt-get install gdebi
 sudo gdebi sogoupinyin.deb 
 
-
-
-
+#树莓派升级为stretch
+其实只需要修改软件源的版本代号,将其中的 jessie更换成 stretch即可。
+sudo nano /etc/apt/source.list
+Ctrl-0 保存，回车，Ctrl-X退出。
+然后执行
+sudo apt-get update
+sudo apt-get dist-upgrade
 
 
