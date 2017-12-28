@@ -50,4 +50,7 @@ Ctrl-0 保存，回车，Ctrl-X退出。
 sudo apt-get update
 sudo apt-get dist-upgrade
 
+#opencv
+pip install opencv-python
+
 
