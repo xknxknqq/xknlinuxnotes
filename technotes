@@ -56,3 +56,5 @@ pip install opencv-python
 #Pyglet教程
 http://ju.outofmemory.cn/entry/127489
 
+#markdown editor
+sudo apt-get install retext
