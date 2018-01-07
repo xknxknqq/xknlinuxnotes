@@ -2,6 +2,11 @@
 #add user to virtualbox vmshare group
 sudo usermod -a -G vboxsf
 
+#install sublime 
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update  
+sudo apt-get install sublime-text
+
 #install atom 
 sudo add-apt-repository ppa:webupd8team/atom  
 sudo apt-get update  
