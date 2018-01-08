@@ -63,3 +63,8 @@ http://ju.outofmemory.cn/entry/127489
 
 #markdown editor
 sudo apt-get install retext
+
+#install Jupyter 
+pip3 install --upgrade pip
+pip3 install jupyter
+
