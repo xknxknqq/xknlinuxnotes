@@ -35,17 +35,13 @@ sudo apt-get install virtualbox-guest-additions-iso
 xrandr -q
 xrandr -s 12
 
-#install Chinese input ibus
-sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
-im-config -s ibus
-sudo apt-get install ibus-pinyin
-sudo ibus-setup
-在System Settings–>Text Entry中添加上ibus拼音输入法，并将Show current input source in the menu bar勾选上，这样就会在系统的菜单条上显示输入法切换的图标了。
-doesn't work
-
 #install sogou pinyin
 sudo apt-get install gdebi
 sudo gdebi sogoupinyin.deb 
+
+#uninstall python 2.7
+sudo apt-get remove python
+
 
 #树莓派升级为stretch
 其实只需要修改软件源的版本代号,将其中的 jessie更换成 stretch即可。
